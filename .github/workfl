@@ -33,8 +33,23 @@ jobs:
             -keypass android \
             -dname "CN=Android Debug,O=Android,C=US"
 
+      # ✅ جديد: توليد gradle wrapper إذا لم يكن موجودًا
+      - name: Setup Gradle and generate wrapper if missing
+        uses: gradle/actions/setup-gradle@v3
+        with:
+          gradle-version: 8.5   # أو أي إصدار يدعم مشروعك
+      
+      - name: Generate Gradle Wrapper if needed
+        run: |
+          if [ ! -f "./gradlew" ]; then
+            echo "gradlew not found, generating..."
+            gradle wrapper --gradle-version 8.5
+          else
+            echo "gradlew exists, skipping generation."
+          fi
+
       - name: Build debug APK
-        run: ./gradlew assembleDebug
+        run: ./gradlew assembleDebug   # الآن gradlew موجود بالتأكيد
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
