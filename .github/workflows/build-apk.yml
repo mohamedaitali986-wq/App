@@ -1,7 +1,7 @@
 name: Build Debug APK
 
 on:
-  workflow_dispatch:                         # <-- يسمح بالتشغيل اليدوي
+  workflow_dispatch:
   push:
     branches: [ main, master ]
   pull_request:
@@ -16,10 +16,10 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up JDK 17
+      - name: Set up JDK 21
         uses: actions/setup-java@v4
         with:
-          java-version: '17'
+          java-version: '21'
           distribution: 'temurin'
 
       - name: Generate debug keystore
@@ -34,16 +34,16 @@ jobs:
             -keypass android \
             -dname "CN=Android Debug,O=Android,C=US"
 
-      - name: Setup Gradle and generate wrapper if missing
+      - name: Setup Gradle (caching only)
         uses: gradle/actions/setup-gradle@v3
         with:
-          gradle-version: 8.5
+          gradle-version: 8.10.2
 
       - name: Generate Gradle Wrapper if needed
         run: |
           if [ ! -f "./gradlew" ]; then
             echo "gradlew not found, generating..."
-            gradle wrapper --gradle-version 8.5
+            gradle wrapper --gradle-version 8.10.2
           else
             echo "gradlew exists, skipping generation."
           fi
