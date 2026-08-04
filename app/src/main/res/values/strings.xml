@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Shaghaf</string>
+    <string name="app_tagline">Short Videos &amp; Stories</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_upload">Create</string>
+    <string name="nav_notifications">Notifications</string>
+    <string name="nav_profile">Profile</string>
+    
+    <string name="login">Log In</string>
+    <string name="register">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="display_name">Display Name</string>
+    <string name="bio">Bio</string>
+    <string name="welcome_back">Welcome Back to Shaghaf</string>
+    <string name="join_shaghaf">Join Shaghaf Community</string>
+    
+    <string name="language_switcher">Language / اللغة</string>
+    <string name="lang_ar">العربية</string>
+    <string name="lang_en">English</string>
+    
+    <string name="admin_panel">Admin Panel</string>
+    <string name="logout">Log Out</string>
+    <string name="comments">Comments</string>
+    <string name="add_comment">Write a comment...</string>
+    <string name="send">Send</string>
+    <string name="publish">Publish</string>
+    <string name="short_video">Short Video</string>
+    <string name="photo">Photo</string>
+    <string name="caption">Caption / Description</string>
+    <string name="hashtags">Hashtags (#tag)</string>
+    <string name="search_placeholder">Search users or hashtags...</string>
+    <string name="users">Users</string>
+    <string name="content">Content</string>
+    <string name="reports">Reports</string>
+    <string name="official_content">Official Content</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="mark_all_read">Mark all as read</string>
+    <string name="no_notifications">No notifications yet</string>
+    <string name="no_posts">No content available</string>
+    <string name="create_new_post">Create New Post</string>
+    <string name="share_video_or_photo">Share a short video or photo with followers on Shaghaf</string>
+    <string name="publish_video_now">Publish Video Now 🚀</string>
+    <string name="publish_photo_now">Publish Photo Now 📷</string>
+</resources>

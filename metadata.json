@@ -1,0 +1,6 @@
+{
+  "name": "شغف - Shaghaf",
+  "description": "تطبيق فيديوهات قصيرة ومشاركة الصور باللغتين العربية والإنجليزية بأسلوب حديث ومبتكر",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

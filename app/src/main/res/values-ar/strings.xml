@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">شغف</string>
+    <string name="app_tagline">فيديوهات قصيرة وقصص</string>
+    <string name="nav_home">الرئيسية</string>
+    <string name="nav_discover">اكتشف</string>
+    <string name="nav_upload">إنشاء</string>
+    <string name="nav_notifications">الإشعارات</string>
+    <string name="nav_profile">الملف الشخصي</string>
+    
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="display_name">الاسم الظاهر</string>
+    <string name="bio">السيرة الذاتية</string>
+    <string name="welcome_back">مرحباً بك مجدداً في شغف</string>
+    <string name="join_shaghaf">انضم إلى مجتمع شغف</string>
+    
+    <string name="language_switcher">اللغة / Language</string>
+    <string name="lang_ar">العربية</string>
+    <string name="lang_en">English</string>
+    
+    <string name="admin_panel">لوحة التحكم</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="comments">التعليقات</string>
+    <string name="add_comment">اكتب تعليقاً لطيفاً...</string>
+    <string name="send">إرسال</string>
+    <string name="publish">نشر</string>
+    <string name="short_video">فيديو قصير</string>
+    <string name="photo">صورة</string>
+    <string name="caption">الوصف أو التعليق</string>
+    <string name="hashtags">الوسوم (#وسم)</string>
+    <string name="search_placeholder">ابحث عن مستخدمين أو وسم...</string>
+    <string name="users">المستخدمون</string>
+    <string name="content">المحتوى</string>
+    <string name="reports">البلاغات</string>
+    <string name="official_content">محتوى رسمي</string>
+    <string name="posts">منشورات</string>
+    <string name="followers">المتابعون</string>
+    <string name="following">أتابعهم</string>
+    <string name="edit_profile">تعديل الملف الشخصي</string>
+    <string name="save_changes">حفظ التغييرات</string>
+    <string name="cancel">إلغاء</string>
+    <string name="mark_all_read">تحديد الكل كقروء</string>
+    <string name="no_notifications">لا توجد إشعارات جديدة حالياً</string>
+    <string name="no_posts">لا توجد منشورات متوفرة</string>
+    <string name="create_new_post">إنشاء منشور جديد</string>
+    <string name="share_video_or_photo">شارك فيديو قصير أو صورة مع المتابعين في شغف</string>
+    <string name="publish_video_now">نشر الفيديو الآن 🚀</string>
+    <string name="publish_photo_now">نشر الصورة الآن 📷</string>
+</resources>
